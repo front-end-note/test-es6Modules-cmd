@@ -1,0 +1,22 @@
+{
+  "name": "testimportrequire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "testes6": "node ./lib/test_es6",
+    "testcmd": "node ./lib/test_cmd",
+    "babel": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
